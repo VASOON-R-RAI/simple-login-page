@@ -1,0 +1,53 @@
+
+
+        form {
+            border: 5px solid black; 
+            padding: 20px;
+            margin: 20px;
+        }
+        header {
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: rgb(119, 114, 114);
+            color: white;
+        }
+        .container {
+            padding: 90px;
+        }
+        input[type=text], input[type=password], input[type=email] {
+            width: 50%;
+            padding: 5px 10px;
+            margin: 10px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: grey;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 50%;
+        }
+        footer {
+            bottom: 0;
+            padding: 4px;
+            position: fixed;
+            width: 100%;
+            left: 0;
+            background-color: rgb(119, 114, 114);
+            text-align: center;
+            color: white;
+        }
+        .center {
+            display: block;  
+            margin-left: auto;  
+            margin-right: auto;  
+            border: 8px ridge rgb(0, 0, 0);  
+            padding: 5px;
+        }
+   
